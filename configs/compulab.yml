@@ -51,6 +51,8 @@ CONFIG_FUSE_PROVISIONING: n
 
 INSTALL_DESKTOP_TEST_PACKAGES: n
 
+CONFIG_BOOT_SCRIPT: y
+
 # user can customize the default path of components source and build output path
 DEFAULT_OUT_PATH: $FBDIR/build_${DISTRIB_VERSION}
 DEFAULT_PKGDIR: $FBDIR/components_${DISTRIB_VERSION}
